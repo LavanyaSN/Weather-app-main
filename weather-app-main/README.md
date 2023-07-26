@@ -1,6 +1,4 @@
-# Weather App
 
-[Live Page](http://ec2-13-235-246-225.ap-south-1.compute.amazonaws.com/)
 
 ## How to use
 
@@ -37,7 +35,7 @@ This project consists of a frontend React application and a backend Django serve
 #### 1. Clone the git repository
 
 ```bash
-git clone https://github.com/saurzv/weather-app.git
+https://github.com/LavanyaSN/Weather-app-main.git
 ```
 
 #### 2. Install required packages for backend and frontend and run servers
@@ -67,9 +65,9 @@ API_KEY=<YOUR_API_KEY>
 Make migrations and start the backend server
 
 ```bash
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver localhost:8000
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver localhost:8000
 ```
 
 Similarly for frontend
